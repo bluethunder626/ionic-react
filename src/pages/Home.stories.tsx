@@ -3,7 +3,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 import Home from "./Home";
 
 export default {
-  title: "Home",
+  title: "Ionic/HomePage",
   component: Home,
   parameters: {
     layout: "fullscreen",
@@ -12,4 +12,4 @@ export default {
 
 const Template: ComponentStory<typeof Home> = (args) => <Home {...args} />;
 
-export const SampleIonicHome = Template.bind({});
+export const HomePage = Template.bind({});
